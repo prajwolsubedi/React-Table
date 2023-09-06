@@ -4,11 +4,8 @@ import { useMemo } from "react";
 // import BasicTable from "./components/BasicTable/BasicTable";
 import { COLUMNS } from "./components/ServerTable/columns";
 import DATA from "./MOCK_DATA.json";
-// import { BasicTableColumnType } from "./components/Columns";
-// import { ColumnDef } from "@tanstack/react-table";
 import ServerTable from "./components/ServerTable/ServerTable";
 import { BasicTableColumnType } from "./components/BasicTable/Columns";
-import { ColumnDef } from "@tanstack/react-table";
 const App = () => {
   // const DATAS: BasicTableColumnType[] = useMemo(() => DATA, []);
   // const COLUMN: ColumnDef<BasicTableColumnType>[] = useMemo(() => COLUMNS, []);
